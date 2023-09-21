@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MVC Tech Blog</title>
-    <!-- Include your CSS and JavaScript dependencies here -->
+<script src="../../public/css/style.css"></script>
 </head>
 <body>
     <header>
@@ -26,5 +26,12 @@
     <footer>
         A Nate Master Creation
     </footer>
+{{#if logged_in}}
+  <!-- Include logout.js if the user is logged in -->
+  <script src="../../public/js/logout.js"></script>
+{{else}}
+  <!-- Include login.js if the user is not logged in -->
+  <script src="../../public/js/login.js"></script>
+{{/if}}
 </body>
 </html>
