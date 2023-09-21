@@ -1,0 +1,42 @@
+[
+    {
+      "username": "techguru1",
+      "email": "techguru1@example.com",
+      "password": "password1"
+    },
+    {
+      "username": "codingmaster",
+      "email": "codingmaster@example.com",
+      "password": "password2"
+    },
+    {
+      "username": "codegeek",
+      "email": "codegeek@example.com",
+      "password": "password3"
+    },
+    {
+      "username": "digitalninja",
+      "email": "digitalninja@example.com",
+      "password": "password4"
+    },
+    {
+      "username": "techsavvy",
+      "email": "techsavvy@example.com",
+      "password": "password5"
+    },
+    {
+      "username": "webwizard",
+      "email": "webwizard@example.com",
+      "password": "password6"
+    },
+    {
+      "username": "codingwhiz",
+      "email": "codingwhiz@example.com",
+      "password": "password7"
+    },
+    {
+      "username": "javascriptpro",
+      "email": "javascriptpro@example.com",
+      "password": "password8"
+    }
+  ]

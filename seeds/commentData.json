@@ -1,0 +1,62 @@
+[
+    {
+      "text": "Great introduction to JavaScript!",
+      "user_id": 2,
+      "post_id": 1
+    },
+    {
+      "text": "I'm excited to see the web development trends for 2023!",
+      "user_id": 3,
+      "post_id": 2
+    },
+    {
+      "text": "Python and JavaScript have their strengths and weaknesses.",
+      "user_id": 4,
+      "post_id": 3
+    },
+    {
+      "text": "AI is indeed a game-changer in many industries.",
+      "user_id": 5,
+      "post_id": 4
+    },
+    {
+      "text": "React is a powerful library for building user interfaces.",
+      "user_id": 6,
+      "post_id": 5
+    },
+    {
+      "text": "I've been wanting to learn Node.js and Express.js. Thanks for this!",
+      "user_id": 7,
+      "post_id": 6
+    },
+    {
+      "text": "I'm a big fan of JavaScript. Great post!",
+      "user_id": 1,
+      "post_id": 1
+    },
+    {
+      "text": "The future of AI is both exciting and challenging.",
+      "user_id": 2,
+      "post_id": 4
+    },
+    {
+      "text": "I agree, React makes building UIs so much easier.",
+      "user_id": 3,
+      "post_id": 5
+    },
+    {
+      "text": "Node.js and Express.js are a powerful combination for backend development.",
+      "user_id": 4,
+      "post_id": 6
+    },
+    {
+      "text": "JavaScript vs. Python is a hot topic in the tech world!",
+      "user_id": 5,
+      "post_id": 3
+    },
+    {
+      "text": "I'm looking forward to the web development trends!",
+      "user_id": 6,
+      "post_id": 2
+    }
+  ]

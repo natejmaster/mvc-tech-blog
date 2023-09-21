@@ -1,0 +1,32 @@
+[
+    {
+      "title": "Introduction to JavaScript",
+      "text": "In this post, we will introduce you to the basics of JavaScript programming.",
+      "user_id": 1
+    },
+    {
+      "title": "Web Development Trends in 2023",
+      "text": "Explore the latest trends in web development for the year 2023.",
+      "user_id": 2
+    },
+    {
+      "title": "Python vs. JavaScript: A Comparison",
+      "text": "A detailed comparison between Python and JavaScript for web development.",
+      "user_id": 3
+    },
+    {
+      "title": "The Future of Artificial Intelligence",
+      "text": "Discover how AI is shaping the future of technology and industry.",
+      "user_id": 4
+    },
+    {
+      "title": "Getting Started with React",
+      "text": "Learn the fundamentals of building web applications with React.",
+      "user_id": 5
+    },
+    {
+      "title": "Node.js and Express.js Tutorial",
+      "text": "A step-by-step guide to building APIs with Node.js and Express.js.",
+      "user_id": 6
+    }
+  ]
