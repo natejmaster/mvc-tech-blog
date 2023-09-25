@@ -5,7 +5,7 @@ const path = require('path');
 
 // Import helpers
 const withAuth = require('./utils/auth');
-const formatDate = require('./utils/formatDate');
+const helpers = require('./utils/helpers'); // Import the helpers.js file
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -34,7 +34,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 const hbs = exphbs.create({
   helpers: {
-    formatDate: formatDate,
+    format_date: helpers.format_date,
     withAuth: withAuth,
   },
 });

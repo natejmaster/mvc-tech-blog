@@ -1,6 +1,9 @@
-{{#each comments}}
-  <div class="comment">
-    <p>{{text}}</p>
-    <p>Commented by {{user.username}} on {{formatDate post.createdAt}}</p>
-  </div>
-{{/each}}
+<div class="comments">
+    <h3>Comments</h3>
+    {{#each comments}}
+        <div class="comment">
+            <p>{{this.text}}</p>
+            <p>Comment by {{this.user}} on {{format_date this.createdAt}}</p>
+        </div>
+    {{/each}}
+</div>

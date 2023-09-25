@@ -1,4 +1,11 @@
-  <div class="container">
-    <h2>Home</h2>
-    {{> postList}}
-  </div>
+<div class="container">
+  <h2>Home</h2>
+  {{#each posts}}
+    <div class="post">
+      <h3>{{title}}</h3>
+      <p>{{body}}</p>
+      <p>Author: {{author}}</p>
+      <p>Date: {{format_date createdAt "medium"}}</p>
+    </div>
+  {{/each}}
+</div>

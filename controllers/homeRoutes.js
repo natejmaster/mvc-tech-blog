@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const { Post, User, Comment } = require('../models');
 const withAuth = require('../utils/auth');
+const formatDate = require('../utils/helpers'); // Import the formatDate helper
 
 // Render the homepage with all posts
 router.get('/', async (req, res) => {
@@ -26,7 +27,8 @@ router.get('/', async (req, res) => {
 
     res.render('homepage', {
       posts,
-      loggedIn: req.session.loggedIn,
+      isAuthenticated: req.session.loggedIn,
+      formatDate: formatDate,
     });
   } catch (err) {
     console.log(err);

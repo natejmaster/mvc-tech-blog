@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MVC Tech Blog</title>
-<script src="../../public/css/style.css"></script>
+    <!-- Include your CSS stylesheets here -->
+    <link rel="stylesheet" href="/public/css/style.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
         <nav>
             <ul>
@@ -20,18 +22,24 @@
             </ul>
         </nav>
     </header>
+
+    <!-- Main Content -->
     <main>
-        {{{body}}}
+        {{{body}}} <!-- This is where individual page content will be inserted -->
     </main>
+
+    <!-- Footer -->
     <footer>
-        A Nate Master Creation
+        &copy; 2023 MVC Tech Blog
     </footer>
-{{#if logged_in}}
-  <!-- Include logout.js if the user is logged in -->
-  <script src="../../public/js/logout.js"></script>
-{{else}}
-  <!-- Include login.js if the user is not logged in -->
-  <script src="../../public/js/login.js"></script>
-{{/if}}
+
+    <!-- Include JavaScript -->
+    {{#if logged_in}}
+        <!-- Include logout.js if the user is logged in -->
+        <script src="/public/js/logout.js"></script>
+    {{else}}
+        <!-- Include login.js if the user is not logged in -->
+        <script src="/public/js/login.js"></script>
+    {{/if}}
 </body>
 </html>

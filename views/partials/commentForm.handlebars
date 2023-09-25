@@ -1,11 +1,7 @@
-{{#if isAuthenticated}}
-  <form id="comment-form">
+<form id="comment-form" action="/comment" method="POST">
     <div class="form-group">
-      <label for="comment">Leave a Comment:</label>
-      <textarea id="comment" name="comment" required></textarea>
+        <label for="comment">Add a Comment:</label>
+        <textarea id="comment" name="comment" required></textarea>
     </div>
-    <button type="submit">Submit Comment</button>
-  </form>
-{{else}}
-  <p><a href="/login">Log in</a> to leave a comment.</p>
-{{/if}}
+    <button type="submit">Submit</button>
+</form>
