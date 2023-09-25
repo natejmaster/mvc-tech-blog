@@ -1,93 +1,99 @@
-/* Reset some default styles */
-body,
-h1,
-h2,
-h3,
-p,
-ul,
-li {
-  margin: 0;
+/* Navbar styles */
+nav ul {
+  list-style: none;
   padding: 0;
-}
-
-/* Set a background color and font styles for the entire page */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  color: #333;
-  line-height: 1.6;
   margin: 0;
-  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #333; /* Navbar background color */
 }
 
-/* Style the header */
-header {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 1rem 0;
+nav ul li {
+  display: inline;
 }
 
-/* Style the navigation menu */
-nav {
-  background-color: #444;
-  text-align: center;
-}
-
-nav a {
-  display: inline-block;
-  color: #fff;
+nav ul li a {
   text-decoration: none;
-  padding: 1rem;
+  color: #fff; /* Navbar link color */
+  padding: 10px 20px; /* Adjust padding to your preference */
 }
 
-/* Style links */
-a:hover {
-  background-color: #555;
+/* Post Details styles */
+.post {
+  margin-bottom: 20px; /* Add some space between posts */
+  border: 1px solid #ddd; /* Add a border for separation */
+  padding: 10px;
+  background-color: #fff; /* Post background color */
 }
 
-/* Style content container */
-.container {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 1rem;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.post h3 {
+  font-size: 24px; /* Post title font size */
 }
 
-/* Style blog post cards */
-.post-card {
-  background-color: #fff;
-  padding: 1rem;
-  margin-bottom: 2rem;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+.post p {
+  margin: 10px 0; /* Add some spacing between paragraphs */
 }
 
-/* Style comment section */
-.comment-section {
-  margin-top: 2rem;
-  padding-top: 1rem;
-  border-top: 1px solid #ccc;
+/* Comment List styles */
+.comments {
+  margin-top: 20px; /* Add space between post and comments */
 }
 
-.comment-card {
-  background-color: #f9f9f9;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  border: 1px solid #ddd;
+.comments h3 {
+  font-size: 20px; /* Comment section title font size */
 }
 
-/* Style buttons */
-.btn {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  background-color: #333;
-  color: #fff;
-  text-decoration: none;
+.comment {
+  border: 1px solid #ddd; /* Add a border for separation */
+  padding: 10px;
+  background-color: #f9f9f9; /* Comment background color */
+  margin-top: 10px; /* Add space between comments */
+}
+
+/* Comment Form styles */
+#comment-form {
+  margin-top: 20px; /* Add space between comments and form */
+}
+
+#comment-form label {
+  font-weight: bold; /* Make labels bold */
+}
+
+#comment-form textarea {
+  width: 100%;
+  height: 100px; /* Adjust the height of the textarea */
+  margin-top: 5px;
+  padding: 5px;
+}
+
+#comment-form button {
+  background-color: #333; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 5px 10px; /* Adjust padding to your preference */
   border: none;
   cursor: pointer;
 }
 
-.btn:hover {
-  background-color: #444;
+/* Login Form styles */
+#login-form {
+  margin-top: 20px; /* Add space between comments and form */
+}
+
+#login-form label {
+  font-weight: bold; /* Make labels bold */
+}
+
+#login-form input[type="email"],
+#login-form input[type="password"] {
+  width: 100%;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+#login-form button {
+  background-color: #333; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 5px 10px; /* Adjust padding to your preference */
+  border: none;
+  cursor: pointer;
 }
