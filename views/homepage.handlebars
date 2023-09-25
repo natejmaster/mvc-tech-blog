@@ -1,11 +1,21 @@
 <div class="container">
   <h2>Home</h2>
-  {{#each posts}}
-    <div class="post">
-      <h3>{{title}}</h3>
-      <p>{{body}}</p>
-      <p>Author: {{author}}</p>
-      <p>Date: {{format_date createdAt "medium"}}</p>
+{{#each posts}}
+  <div class="post">
+    <h3>{{title}}</h3>
+    <p>{{text}}</p>
+    <p>Author: {{User.username}}</p>
+    <p>Date: {{format_date createdAt "medium"}}</p>
+
+    <div class="comments">
+      <h4>Comments</h4>
+      {{#each comments}}
+        <div class="comment">
+          <p>{{text}}</p>
+          <p>Comment by {{User.username}} on {{format_date createdAt "medium"}}</p>
+        </div>
+      {{/each}}
     </div>
-  {{/each}}
-</div>
+  </div>
+{{/each}}
+
