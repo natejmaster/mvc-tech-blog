@@ -3,7 +3,7 @@
     {{#each comments}}
         <div class="comment">
             <p>{{this.text}}</p>
-            <p>Comment by {{this.user}} on {{format_date this.createdAt}}</p>
+            <p>Comment by {{this.user.username}} on {{format_date this.date_created}}</p>
         </div>
     {{/each}}
 </div>
