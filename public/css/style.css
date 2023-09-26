@@ -97,3 +97,68 @@ nav ul li a {
   border: none;
   cursor: pointer;
 }
+
+/* New Post Form styles */
+#new-post-form {
+  margin-top: 20px; /* Add space between comments and form */
+}
+
+#new-post-form label {
+  font-weight: bold; /* Make labels bold */
+}
+
+#new-post-form input[type="text"],
+#new-post-form textarea {
+  width: 100%;
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid #ddd; /* Add a border for separation */
+  background-color: #f9f9f9; /* Form input background color */
+}
+
+#new-post-form textarea {
+  height: 100px; /* Adjust the height of the textarea */
+  resize: none; /* Disable textarea resizing */
+}
+
+#new-post-form button {
+  background-color: #333; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 5px 10px; /* Adjust padding to your preference */
+  border: none;
+  cursor: pointer;
+}
+
+/* Signup Form styles */
+#signup-form {
+  margin-top: 20px; /* Add space between comments and form */
+}
+
+#signup-form label {
+  font-weight: bold; /* Make labels bold */
+}
+
+#signup-form input[type="text"],
+#signup-form input[type="email"],
+#signup-form input[type="password"] {
+  width: 100%;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+#signup-form button {
+  background-color: #333; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 5px 10px; /* Adjust padding to your preference */
+  border: none;
+  cursor: pointer;
+}
+
+/* Dashboard styles */
+.dashboard {
+  margin-top: 20px; /* Add space between posts and dashboard */
+}
+
+.dashboard h2 {
+  font-size: 28px; /* Dashboard title font size */
+}

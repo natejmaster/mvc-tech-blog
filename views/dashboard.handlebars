@@ -1,4 +1,18 @@
 <div class="container">
-    <h2>Dashboard</h2>
-    <!-- Display user-specific dashboard content here -->
+  <h2>Dashboard</h2>
+  {{> postForm}}
+
+  <!-- Display existing blog posts here -->
+  {{#each posts}}
+    <div class="post">
+      <h3>{{title}}</h3>
+      <p>{{text}}</p>
+      <p>Author: {{User.username}}</p>
+      <p>Date: {{format_date createdAt "medium"}}</p>
+      <div class="actions">
+        <button class="btn btn-danger delete-post" data-id="{{id}}">Delete</button>
+        <button class="btn btn-primary edit-post" data-id="{{id}}">Edit</button>
+      </div>
+    </div>
+  {{/each}}
 </div>
