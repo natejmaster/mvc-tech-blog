@@ -4,7 +4,7 @@ const withAuth = require('../utils/auth');
 const formatDate = require('../utils/helpers'); // Import the formatDate helper
 
 // Render the homepage with all posts
-router.get('/', async (req, res) => {
+router.get('/', withAuth, async (req, res) => {
   try {
     const postData = await Post.findAll({
       include: [
@@ -37,7 +37,7 @@ router.get('/', async (req, res) => {
 });
 
 // Render the single post page
-router.get('/post/:id', async (req, res) => {
+router.get('/post/:id', withAuth, async (req, res) => {
   try {
     const postData = await Post.findByPk(req.params.id, {
       include: [
